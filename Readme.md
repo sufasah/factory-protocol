@@ -203,7 +203,7 @@ E.g.
 
 35 wc3 a 1 EMPTY -1
 
-### OPERASYON 2
+### OPERATION 2
 `ID”  “NAME”  “STATUS”  “COUNT”\n”ID”  “WORKTYPE”  “UNITAMOUNT”\n”…`
 
 Data in the first line is about to the workcenter has id value and sent to the factoryserver in operation 2 message.  In the other lines,  job orders done added to the message after the opration.
@@ -214,7 +214,7 @@ EX:
 
 452 a 4
 
-### OPERASYON 3
+### OPERATION 3
 `COUNT”\n”ID”  “WORKTYPE”  “UNITAMOUNT”\n”…`
 
 It lists unassigned job orders up to the COUNT.
